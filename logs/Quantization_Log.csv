@@ -1,0 +1,2 @@
+Model Name,Dataset,Quantization Batch Size,Original Top1 Accuracy,Quantized Top1 Accuracy,Original Top5 Accuracy,Quantized Top5 Accuracy,Bits,MLP_Alphabet_Scalar,CNN_Alphabet_Scalar,MLP_Percentile,CNN_Percentile,Stochastic Quantization,Regularizer,Lambda,Original Sparsity,Quantized Sparsity,Retain_rate,Fusion,Seed
+resnet18,ILSVRC2012,256,0.69758,0.6202,0.89078,0.84022,4,1.16,1.16,1,1,False,,0.1,0.0,0.3156,0.25,False,0

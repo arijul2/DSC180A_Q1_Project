@@ -78,4 +78,4 @@ The implementation of GPFQ and its sparse mode in our paper is contained in `src
 ```
 python main.py -model resnet18 -b 4 -bs 256 -s 1.16
 ```
-There are other options we can select, see `main.py`.
+In main.py we can see the hyperparameters we can adjust (ie bit width, batch size, regularizer)
